@@ -5,29 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PCU GRACE OF GOD CHURCH - Kasese</title>
 <meta name="theme-color" content="#0b96d4">
+<link rel="manifest" href="manifest.json">
 <style>
-body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4; color:#333;}
+body {font-family: Arial, sans-serif; margin:0; background:#f8f5f0;}
 header {background:#0b96d4; color:white; padding:20px; text-align:center;}
 header h1 {margin:0; font-size:24px;}
 header p {margin:5px 0 0 0; font-size:14px;}
+.header-img {width:100%; max-width:600px; border-radius:12px; margin-top:15px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);}
 .container {padding:20px; max-width:600px; margin:auto;}
-.goal {background:white; padding:20px; border-radius:12px; box-shadow:0 2px 5px rgba(0,0,0,0.1); margin-bottom:20px; text-align:center;}
+.goal {background:white; padding:20px; border-radius:10px; margin-bottom:20px;}
 .goal h2 {margin-top:0; color:#0b96d4;}
-.progress-bar {background:#eee; border-radius:20px; height:25px; position:relative; overflow:hidden; margin:10px 0;}
-.progress {background:#FFA500; width:0%; height:100%; color:white; text-align:center; line-height:25px; font-size:12px; font-weight:bold;}
-.donate {background:#0b96d4; color:white; text-align:center; padding:25px 20px; margin:20px 0; border-radius:12px;}
+.progress-bar {background:#eee; border-radius:20px; overflow:hidden;}
+.progress {background:#FFA500; width:0%; height:20px; text-align:center; color:white; line-height:20px;}
+.donate {background:#0b96d4; color:white; text-align:center; padding:20px; border-radius:10px; margin-bottom:20px;}
 .donate h3 {margin:0 0 10px 0; font-size:20px;}
-.donate a.phone {color:white; text-decoration:none; font-size:28px; font-weight:bold; display:block; margin:10px 0;}
-.btn {display:block; margin:12px 20px; padding:14px; color:white; text-align:center; border-radius:10px; text-decoration:none; font-weight:bold; font-size:16px;}
+.donate a.phone {color:white; text-decoration:none; font-weight:bold; display:block; margin:5px 0;}
+.btn {display:block; margin:12px 0; padding:14px; border-radius:8px; text-decoration:none; color:white; font-weight:bold; text-align:center;}
 .btn-whatsapp {background:#25D366;}
 .btn-gofundme {background:#00b964;}
-.photos {background:white; padding:20px; border-radius:12px; margin:20px 0;}
-.photos h3 {text-align:center; color:#0b96d4; margin-bottom:15px;}
+.btn-call {background:#128C7E;}
+.photos {background:white; padding:20px; border-radius:10px; margin-bottom:20px;}
+.photos h3 {text-align:center; color:#0b96d4; margin-top:0;}
 .grid {display:grid; grid-template-columns:1fr 1fr; gap:10px;}
 .grid img {width:100%; border-radius:8px; height:150px; object-fit:cover;}
-#install-box {background:white; padding:20px; border-radius:12px; text-align:center; margin:20px 0; border:2px dashed #0b96d4; display:none;}
-#installBtn {padding:14px 30px; background:#0b96d4; color:white; border:none; border-radius:8px; font-size:16px; font-weight:bold; cursor:pointer;}
-footer {background:#333; color:white; text-align:center; padding:15px; font-size:12px;}
+#install-box {background:white; padding:20px; border-radius:10px; text-align:center; margin-bottom:20px;}
+#installBtn {padding:14px 30px; background:#0b96d4; color:white; border:none; border-radius:8px; font-weight:bold; font-size:16px;}
+footer {background:#333; color:white; text-align:center; padding:15px; font-size:14px;}
 </style>
 </head>
 <body>
@@ -35,31 +38,37 @@ footer {background:#333; color:white; text-align:center; padding:15px; font-size
 <header>
 <h1>PCU GRACE OF GOD CHURCH</h1>
 <p>Kasese, Uganda | Building His Kingdom Together</p>
+<!-- CHURCH FAMILY PHOTO ON TOP -->
+<img src="church%20family%201.jpg" alt="PCU Grace of God Church Family" class="header-img">
 </header>
 
 <div class="container">
 
-<!-- BUILDING FUND -->
 <div class="goal">
 <h2>Building Fund Campaign</h2>
-<p style="margin:0 0 15px 0; font-weight:bold; color:#555;">Target: UGX 10,000,000</p>
+<p style="margin:0 0 15px 0; font-weight:bold;">Help us build God's house</p>
 <div class="progress-bar">
 <div class="progress">0% Raised</div>
 </div>
-<p style="margin:10px 0 0 0; font-weight:bold; color:#333;">Raised: UGX 0 of UGX 10,000,000</p>
+<p style="margin:10px 0 0 0; font-weight:bold;">Goal: UGX 50,000,000</p>
 </div>
 
-<!-- DONATE SECTION - ONLY 1 TIME -->
+<!-- DONATE SECTION -->
 <div class="donate">
 <h3>DONATE NOW</h3>
 <p>Send your offering via MoMo / Airtel Money</p>
-<a href="tel:+256780220931" class="phone">+256 780 220 931</a>
-<p style="margin:5px 0; font-size:14px;">Account Name: Church Secretary</p>
+<!-- NUMBER 1 -->
+<a href="tel:+256780220931" class="phone">📞 +256 780 220 931</a>
+<!-- PASTOR NUMBER 2 -->
+<a href="tel:+256763321964" class="phone">📞 +256 763 321 964 - Pastor</a>
+<p style="margin:5px 0; font-size:14px;">Account Name: PCU Grace of God Church</p>
 </div>
 
-<a href="https://wa.me/256780220931?text=Hello%20PCU%20Grace%20of%20God%20Church%20Kasese,%20I%20want%20to%20support" class="btn btn-whatsapp">Chat with us on WhatsApp</a>
+<!-- WHATSAPP BUTTONS -->
+<a href="https://wa.me/256780220931?text=Hello%20PCU%20Grace%20of%20God%20Church" class="btn btn-whatsapp">💬 WhatsApp Number 1</a>
+<a href="https://wa.me/256763321964?text=Hello%20Pastor" class="btn btn-whatsapp">💬 WhatsApp Pastor - 0763321964</a>
 
-<a href="https://gofund.me/gdf69f37b" target="_blank" class="btn btn-gofundme">DONATE VIA GOFUNDME</a>
+<a href="https://gofund.me/gdf69f37b" target="_blank" class="btn btn-gofundme">❤️ Donate via GoFundMe</a>
 
 <!-- PHOTOS -->
 <div class="photos">
@@ -72,27 +81,25 @@ footer {background:#333; color:white; text-align:center; padding:15px; font-size
 <img src="20260808_135422.jpg" alt="Church Photo">
 <img src="20260808_135355.jpg" alt="Church Photo">
 <img src="20260808_135317.jpg" alt="Church Photo">
-<img src="20260808_135300.jpg" alt="Church Photo">
-<img src="photo9.jpg" alt="Church Family Waving">
-<img src="photo10.jpg" alt="Church Family Waving">
-<img src="photo11.jpg" alt="Sunday Service Seated">
-<img src="photo12.jpg" alt="Sunday Service Waving">
-<img src="photo13.jpg" alt="Sunday Service Seated">
+<!-- FIXED PHOTOS WITH SPACES -->
+<img src="church%20family%203.jpg" alt="Church Family">
+<img src="churchfamily%202.jpg" alt="Church Family 2">
+<img src="church%20service%202.jpg" alt="Sunday Service">
+<img src="churchservice%201.jpg" alt="Sunday Service">
 </div>
-<p style="text-align:center; margin-top:15px; font-size:14px;">We will update this page with real church photos soon.</p>
 </div>
 
 <!-- INSTALL APP BOX -->
 <div id="install-box">
-<h3 style="margin:0 0 8px 0; font-size:22px; color:#0b96d4;">INSTALL OUR APP</h3>
-<p style="margin:0 0 15px 0; font-size:14px;">Tap to add PCU Grace of God Church to your home screen</p>
+<h3 style="margin:0 0 8px 0; font-size:22px; color:#0b96d4;">Get Our Church App</h3>
+<p style="margin:0 0 15px 0; font-size:14px;">Tap INSTALL then ⋮ → Add to Home screen</p>
 <button id="installBtn">INSTALL NOW</button>
 </div>
 
 </div>
 
 <footer>
-© 2026 PCU GRACE OF GOD CHURCH Kasese. All Rights Reserved.
+© 2026 PCU GRACE OF GOD CHURCH Kasese. All Rights Reserved
 </footer>
 
 <script>
